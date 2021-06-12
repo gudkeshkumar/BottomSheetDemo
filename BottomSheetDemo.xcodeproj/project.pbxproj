@@ -15,6 +15,9 @@
 		181C7E1D2672D94900C230F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181C7E1B2672D94900C230F5 /* LaunchScreen.storyboard */; };
 		181C7E282672D94900C230F5 /* BottomSheetDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C7E272672D94900C230F5 /* BottomSheetDemoTests.swift */; };
 		181C7E322672D94900C230F5 /* BottomSheetDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C7E312672D94900C230F5 /* BottomSheetDemoUITests.swift */; };
+		181C7E3F2672DECA00C230F5 /* CustomModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C7E3E2672DECA00C230F5 /* CustomModalViewController.swift */; };
+		181C7E402672DECA00C230F5 /* CustomModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C7E3E2672DECA00C230F5 /* CustomModalViewController.swift */; };
+		181C7E412672DECA00C230F5 /* CustomModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C7E3E2672DECA00C230F5 /* CustomModalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,7 @@
 		181C7E272672D94900C230F5 /* BottomSheetDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetDemoTests.swift; sourceTree = "<group>"; };
 		181C7E2D2672D94900C230F5 /* BottomSheetDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BottomSheetDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		181C7E312672D94900C230F5 /* BottomSheetDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetDemoUITests.swift; sourceTree = "<group>"; };
+		181C7E3E2672DECA00C230F5 /* CustomModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,7 @@
 				181C7E102672D94600C230F5 /* AppDelegate.swift */,
 				181C7E122672D94600C230F5 /* SceneDelegate.swift */,
 				181C7E142672D94600C230F5 /* ViewController.swift */,
+				181C7E3E2672DECA00C230F5 /* CustomModalViewController.swift */,
 				181C7E162672D94600C230F5 /* Main.storyboard */,
 				181C7E192672D94900C230F5 /* Assets.xcassets */,
 				181C7E1B2672D94900C230F5 /* LaunchScreen.storyboard */,
@@ -256,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				181C7E152672D94600C230F5 /* ViewController.swift in Sources */,
+				181C7E3F2672DECA00C230F5 /* CustomModalViewController.swift in Sources */,
 				181C7E112672D94600C230F5 /* AppDelegate.swift in Sources */,
 				181C7E132672D94600C230F5 /* SceneDelegate.swift in Sources */,
 			);
@@ -266,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				181C7E282672D94900C230F5 /* BottomSheetDemoTests.swift in Sources */,
+				181C7E402672DECA00C230F5 /* CustomModalViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				181C7E322672D94900C230F5 /* BottomSheetDemoUITests.swift in Sources */,
+				181C7E412672DECA00C230F5 /* CustomModalViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,11 +446,14 @@
 				DEVELOPMENT_TEAM = LF62428J43;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BottomSheetDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleExecutable = BottomSheetDemo;
+				INFOPLIST_KEY_CFBundleName = BottomSheetDemo;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,11 +477,14 @@
 				DEVELOPMENT_TEAM = LF62428J43;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BottomSheetDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleExecutable = BottomSheetDemo;
+				INFOPLIST_KEY_CFBundleName = BottomSheetDemo;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
